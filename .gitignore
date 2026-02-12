@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Project Data (Don't push personal PDFs)
+input_pdfs/*
+output_images/*
+!input_pdfs/.gitkeep
+!output_images/.gitkeep
+
+# Poppler (Large binary, do not push)
+poppler-*/
+poppler-25.12.0/
+
+# VS Code
+.vscode/
